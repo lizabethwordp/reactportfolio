@@ -1,6 +1,12 @@
 import React from 'react'
 import './portfolio.css'
 import infantreg1 from '../../assets/infantreg1.png'
+import me from '../../assets/me.jpg'
+import me1 from '../../assets/me1.jpg'
+import me2 from '../../assets/me2.jpg'
+import me3 from '../../assets/me3.jpg'
+import download from '../../assets/download.jpg'
+
 
 const arr = [
   {
@@ -12,38 +18,38 @@ const arr = [
   },
   {
     id: 2,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
-    demo: 'https://infantreg.azurewebsites.net/'
+    image: me,
+    name: 'coming soon',
+    github: '',
+    demo: ''
   },
   {
     id: 3,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
+    image: me3,
+    name: 'coming soon',
+    github: '',
     demo: 'https://infantreg.azurewebsites.net/'
   },
   {
     id: 4,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
-    demo: 'https://infantreg.azurewebsites.net/'
+    image: me2,
+    name: 'coming soon',
+    github: '',
+    demo: ''
   },
   {
     id: 5,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
-    demo: 'https://infantreg.azurewebsites.net/'
+    image: me3,
+    name: 'coming soon',
+    github: '',
+    demo: ''
   },
   {
     id: 6,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
-    demo: 'https://infantreg.azurewebsites.net/'
+    image: download,
+    name: 'coming soon',
+    github: '',
+    demo: ''
   }
 ]
 const Portfolio = () => {
@@ -65,8 +71,8 @@ const Portfolio = () => {
                   </div>
                   <h3>{name}</h3>
                   <div className='pt__items-cta'>
-                    <a href = {github} className='btn'>Github</a>
-                    <a href= {demo} className='btn btn-primary' >Live Demo</a>
+                    <a href = {github} className='btn' target='_blank'>Github</a>
+                    <a href= {demo} className='btn btn-primary' target='_blank' >Live Demo</a>
                 
                   </div>
               </article>

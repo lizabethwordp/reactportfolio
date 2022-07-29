@@ -21,14 +21,14 @@
     
 
 }
-.ct__items h3{
+.ct__items h5{
+    font-size: medium;
+    font-weight: 400;
+}
+/* .ct__items h2, h5{
     margin: 1.2rem 0 2rem;
-}
-.ct__items-cta{
-    /* display: flex; */
-    gap: 2rem;
-    margin-bottom: 1rem;
-}
+} */
+
 .btn-primary{
     /* display: flex; */
     margin-left: 0.7rem;
