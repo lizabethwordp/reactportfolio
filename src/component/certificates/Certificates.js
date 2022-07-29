@@ -3,6 +3,7 @@ import './certificates.css'
 import microsoft from '../../assets/microsoft.jpg'
 import csbootcamp from '../../assets/csbootcamp.jpg'
 import udacity from '../../assets/udacity.jpg'
+import reactcert from '../../assets/reactcert.jpg'
 
 const arr = [
   {
@@ -25,13 +26,13 @@ const arr = [
     name1: 'Udacity',
    
   },
-  // {
-  //   id: 4,
-  //   image: infantreg1,
-  //   name: 'ReactJS E-Degree',
-  //   name1: 'Udemy'
+  {
+    id: 4,
+    image: reactcert,
+    name: 'ReactJS Mastery E-Degree Certificate',
+    name1: 'Udemy'
     
-  // },
+  },
   // {
   //   id: 5,
   //   image: infantreg1,
