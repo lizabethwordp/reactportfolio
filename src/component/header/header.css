@@ -1,7 +1,8 @@
 header{
     height: 100vh;
-    padding: 7rem;
+    padding: 0rem;
     overflow: hidden;
+
 }
 .header___container{
     text-align: center;
@@ -24,18 +25,62 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 2%;
     bottom: 3rem;
+    color: white;
+    left: 10rem;
 }
-.socials{
+.socials::after{
     content: "";
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: white;
 }
 
 /* My image */
-.nysc{
-    background: var(--color-primary);
+.me{
+    /* background: linear-gradient(var(--color-primary), transparent); */
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(45% - 11rem);
     
+    margin-top: 2rem;
+    
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+
+}
+
+/* Scroll down */
+.scroll__down{
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 2rem;
+    color: white;
+}
+/* 
+Meduim devices */
+@media screen and(max-width: 1024px){
+    header{
+       height: 68vh;
+       background: palegreen;
+    }
+
+   
+}
+
+/* Small devices */
+@media screen and(max-width: 600px){
+    header{
+        height: 100vh;
+        background: palegreen;
+     }
+    .header__socials, .scroll__down{
+       display: none;
+    }
 }
