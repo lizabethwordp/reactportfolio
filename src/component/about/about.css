@@ -1,7 +1,7 @@
 .about__container{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
 
 .about__me{
@@ -71,7 +71,7 @@
 } 
 /* 
 Meduim devices */
-@media screen and(max-width: 1024px){
+@media screen and(max-width: 900px){
     .about__container{
        grid-template-columns: 1fr;
        gap: 0;
@@ -89,11 +89,13 @@ Meduim devices */
 }
 
 /* Small devices */
-@media screen and(max-width: 600px){
+@media screen and(max-width: 767px){
     .about__me{
        width: 65%;
        margin: 0 auto 3rem;
      }
+
+     
     .about__cards{
        grid-template-columns: 2fr 2fr;
        gap: 1rem;
