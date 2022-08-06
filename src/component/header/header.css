@@ -28,7 +28,7 @@ header{
     left: 2%;
     bottom: 3rem;
     color: white;
-    left: 10rem;
+    left: 5rem;
 }
 .socials::after{
     content: "";
@@ -83,4 +83,13 @@ Meduim devices */
     .header__socials, .scroll__down{
        display: none;
     }
+
+    .socials{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        bottom: 3rem;
+       
+       
+}
 }
