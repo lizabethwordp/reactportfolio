@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import bks from '../../assets/bks.jpg'
+import laptop from '../../assets/laptop.jpg'
 import {FaAward} from 'react-icons/fa'
 import {TbMilitaryAward} from 'react-icons/tb'
 import {BsFolderFill} from 'react-icons/bs'
@@ -15,7 +15,7 @@ const About = () => {
        <div className='container about__container'>
         <div className='about_me'>
           <div className='about__me-image'>
-            <img src={bks} alt='me'></img>
+            <img src={laptop} alt='laptopimg'></img>
           </div>
         </div>
 
