@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    padding-top: 4rem;
 }
 
 .about__me{
@@ -50,7 +51,7 @@
 }
 
 .about__icon{
-    color: wheat;
+    color: black;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
