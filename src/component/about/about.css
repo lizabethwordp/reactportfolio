@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+   
+}
+.about_title{
     padding-top: 4rem;
 }
 
