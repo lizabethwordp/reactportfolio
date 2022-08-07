@@ -33,9 +33,7 @@
 }
 .email{
     text-align: center;
-    font-size: 0.5rem;
-    padding-left: 20%;
-    /* display: inline-block; */
+    word-wrap: break-word;
 }
 
 /* Form styling */
@@ -67,6 +65,12 @@ Meduim devices */
     .container.contact__container{
         width: var(--container-width-sm);
       
+     }
+
+     h5.contact__option{
+        margin: 0 auto;
+        width:fit-content;
+        text-align: center;
      }
 } 
 

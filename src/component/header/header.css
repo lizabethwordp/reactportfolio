@@ -28,7 +28,7 @@ header{
     left: 2%;
     bottom: 3rem;
     color: white;
-    left: 10rem;
+    left: 5rem;
 }
 .socials::after{
     content: "";
@@ -65,13 +65,13 @@ header{
     color: white;
     right: 10rem;
 
-    /* position: absolute;
+    position: absolute;
     right: 5rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 2rem;
-    color: white; */
+    color: white; 
 }
 /* 
 Meduim devices */
