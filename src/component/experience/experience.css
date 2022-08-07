@@ -13,6 +13,9 @@
     transition: var(--transition);
     
 }
+.exp_title{
+    padding-top: 5rem;
+}
 .experience__container >div:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -37,7 +40,7 @@
 } */
 .exp__details-icon{
     margin-top: 6px;
-    color: wheat;
+    color:  black;
 }
 /* 
 Meduim devices */
