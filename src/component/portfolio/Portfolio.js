@@ -27,21 +27,21 @@ const arr = [
     demo: ''
   },
   {
-    id: 5,
+    id: 3,
     image: rockpaperscissors,
     name: 'rock-paper-scissors',
     github: 'https://github.com/lizabethwordp/rock-paper-scissors',
     demo: 'https://replit.com/@lizabethwordp/Elev8rockpaperscissorsstart'
-  }
+  },
   {
-    id: 3,
+    id: 4,
     image: me2,
     name: 'coming soon',
     github: '',
     demo: ''
   },
   {
-    id: 4,
+    id: 5,
     image: me3,
     name: 'coming soon',
     github: '',
@@ -50,7 +50,7 @@ const arr = [
   {
     id: 6,
     image: me,
-    name: 'coming',
+    name: 'coming soon',
     github: '',
     demo: ''
   }
