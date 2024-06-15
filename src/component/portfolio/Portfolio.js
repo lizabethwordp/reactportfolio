@@ -42,14 +42,14 @@ const arr = [
   },
   {
     id: 5,
-    image: me3,
+    image: me,
     name: 'coming soon',
     github: '',
     demo: ''
   },
   {
     id: 6,
-    image: me,
+    image: me3,
     name: 'coming soon',
     github: '',
     demo: ''
