@@ -1,15 +1,14 @@
-import React from 'react'
-import './portfolio.css'
-import infantreg1 from '../../assets/infantreg1.png'
-import me from '../../assets/me.jpg'
-import me1 from '../../assets/me1.jpg'
-import me2 from '../../assets/me2.jpg'
-import me3 from '../../assets/me3.jpg'
-import rockpaperscissors from '../../assets/rockpaperscissors.png'
-import Grafana from '../../assets/Grafana.png'
-import download from '../../assets/download.jpg'
-import testodogwu from '../../assets/testodogwu.png'
-
+import React from 'react';
+import './portfolio.css';
+import infantreg1 from '../../assets/infantreg1.png';
+import me from '../../assets/me.jpg';
+import me1 from '../../assets/me1.jpg';
+import me2 from '../../assets/me2.jpg';
+import me3 from '../../assets/me3.jpg';
+import rockpaperscissors from '../../assets/rockpaperscissors.png';
+import Grafana from '../../assets/Grafana.png';
+import download from '../../assets/download.jpg';
+import testodogwu from '../../assets/testodogwu.png';
 
 const arr = [
   {
@@ -54,44 +53,38 @@ const arr = [
     github: '',
     demo: ''
   }
-]
+];
+
 const Portfolio = () => {
   return (
     <div>
-     <section id='portfolio'>
+      <section id='portfolio'>
         <h5>My Works and Collaborations</h5>
         <h2>Portfolio</h2>
 
         <div className='container portfolio__container'>
-      
-
-          {
-            arr.map(({id, image, name, github, demo}) =>{
-              return(
-                <article key={id} className='pt__items'>
-                  <div className='pt__items-image'>
-                    <img src={image} alt={name}></img>
-                  </div>
-                  <h3>{name}</h3>
-                  <div className='pt__items-cta'>
-                    <a href = {github} className='btn' target='_blank'>Github</a>
-                    <a href= {demo} className='btn btn-primary' target='_blank' >Live Demo</a>
-                
-                  </div>
+          {arr.map(({ id, image, name, github, demo }) => {
+            return (
+              <article key={id} className='pt__items'>
+                <div className='pt__items-image'>
+                  <img src={image} alt={name} />
+                </div>
+                <h3>{name}</h3>
+                <div className='pt__items-cta'>
+                  <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>
+                    Github
+                  </a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
+                    Live Demo
+                  </a>
+                </div>
               </article>
-              )
-
-            })
-            
-          }
-
-          
-         
+            );
+          })}
         </div>
-      
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
