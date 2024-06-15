@@ -9,6 +9,36 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className='container experience__container'>
+          <div className='exp__cybersecurity'>
+            <h5>DevOps Engineer</h5>
+            <div className='exp__content'>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Scripting</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Container management</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Automation</h4> 
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Configuration management</h4> 
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Cloud technologies</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Monitoring and Security</h4>
+              </article>
+            </div>
+          </div>
+
         <div className='exp__cybersecurity'>
           <h5>Cyber Security</h5>
           <div className='exp__content'>
@@ -66,7 +96,7 @@ const Experience = () => {
             </article>
             <article className='exp__details'>
               <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>	Task Management: Miro</h4>
+              <h4>Task Management: Miro</h4>
             </article>
             <article className='exp__details'>
               <BsFillCheckCircleFill className='exp__details-icon'/>

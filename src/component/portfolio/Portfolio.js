@@ -19,7 +19,7 @@ const arr = [
   {
     id: 2,
     image: me,
-    name: 'coming soon',
+    name: 'CRUD App',
     github: '',
     demo: ''
   },

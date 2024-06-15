@@ -2,13 +2,24 @@ import React from 'react'
 import './testimonials.css'
 import avatar from '../../assets/avatar.png'
 
-import { Pagination } from 'swiper';
+//import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+
+// Core modules imports are same as usual
+import { Navigation, Pagination } from 'swiper/modules';
+// Direct React component imports
+//import { Swiper, SwiperSlide } from 'swiper/swiper-react.mjs';
+
+// Styles must use direct files imports
+//import 'swiper/swiper.scss'; // core Swiper
+//import 'swiper/modules/navigation.scss'; // Navigation module
+//import 'swiper/modules/pagination.scss'; // Pagination module
+
 
 
 const arr = [
