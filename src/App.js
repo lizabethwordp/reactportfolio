@@ -23,7 +23,11 @@ function App() {
       <Experience/>
      
       <Portfolio/>
+<<<<<<< HEAD
       {/* <Testimonials/> */}
+=======
+      // <Testimonials/>
+>>>>>>> 5e476589c8364f15266f594c316a0aa69ea4be56
       <Certificates/>
       <Contact/>
       <Footer/>
