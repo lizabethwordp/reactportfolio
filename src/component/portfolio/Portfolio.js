@@ -23,9 +23,16 @@ const arr = [
     id: 2,
     image: Grafana,
     name: 'Grafana',
-    github: '',
+    github: 'https://github.com/lizabethwordp/Grafana-Dashboard',
     demo: ''
   },
+  {
+    id: 5,
+    image: rockpaperscissors,
+    name: 'rock-paper-scissors',
+    github: 'https://github.com/lizabethwordp/rock-paper-scissors',
+    demo: 'https://replit.com/@lizabethwordp/Elev8rockpaperscissorsstart'
+  }
   {
     id: 3,
     image: me2,
@@ -41,11 +48,11 @@ const arr = [
     demo: ''
   },
   {
-    id: 5,
-    image: rockpaperscissors,
-    name: 'rock-paper-scissors',
-    github: 'https://github.com/lizabethwordp/rock-paper-scissors',
-    demo: 'https://replit.com/@lizabethwordp/Elev8rockpaperscissorsstart'
+    id: 6,
+    image: me,
+    name: 'coming',
+    github: '',
+    demo: ''
   }
 ]
 const Portfolio = () => {
