@@ -5,51 +5,47 @@ import me from '../../assets/me.jpg'
 import me1 from '../../assets/me1.jpg'
 import me2 from '../../assets/me2.jpg'
 import me3 from '../../assets/me3.jpg'
+import rockpaperscissors from '../../assets/rockpaperscissors.png'
+import Grafana from '../../assets/Grafana.png'
 import download from '../../assets/download.jpg'
+import testodogwu from '../../assets/testodogwu.png'
 
 
 const arr = [
   {
     id: 1,
-    image: infantreg1,
-    name: 'InfantReg Database App',
-    github: 'https://github.com/dmarinere/Pheonix-Data-Record',
-    demo: 'https://infantreg.azurewebsites.net/'
+    image: testodogwu,
+    name: 'User Management App',
+    github: 'https://github.com/lizabethwordp/testodogwu',
+    demo: 'https://github.com/lizabethwordp/sequelized-node-crud'
   },
   {
     id: 2,
-    image: me,
-    name: 'CRUD App',
+    image: Grafana,
+    name: 'Grafana',
     github: '',
     demo: ''
   },
   {
     id: 3,
-    image: me3,
-    name: 'coming soon',
-    github: '',
-    demo: 'https://infantreg.azurewebsites.net/'
-  },
-  {
-    id: 4,
     image: me2,
     name: 'coming soon',
     github: '',
     demo: ''
   },
   {
-    id: 5,
+    id: 4,
     image: me3,
     name: 'coming soon',
     github: '',
     demo: ''
   },
   {
-    id: 6,
-    image: download,
-    name: 'coming soon',
-    github: '',
-    demo: ''
+    id: 5,
+    image: rockpaperscissors,
+    name: 'rock-paper-scissors',
+    github: 'https://github.com/lizabethwordp/rock-paper-scissors',
+    demo: 'https://replit.com/@lizabethwordp/Elev8rockpaperscissorsstart'
   }
 ]
 const Portfolio = () => {

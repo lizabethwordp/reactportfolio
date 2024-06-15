@@ -1,17 +1,17 @@
-import React from 'react'
-import './testimonials.css'
-import avatar from '../../assets/avatar.png'
+// import React from 'react'
+// import './testimonials.css'
+// import avatar from '../../assets/avatar.png'
 
 //import { Pagination } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
 
 // Core modules imports are same as usual
-import { Navigation, Pagination } from 'swiper/modules';
+// import { Navigation, Pagination } from 'swiper/modules';
 // Direct React component imports
 //import { Swiper, SwiperSlide } from 'swiper/swiper-react.mjs';
 
@@ -22,33 +22,33 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 
 
-const arr = [
-  {
-    image: avatar,
-    name: 'John Bull',
-    review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-  },
-  {
+// const arr = [
+//   {
+//     image: avatar,
+//     name: 'John Bull',
+//     review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+//   },
+//   {
  
-    image: avatar,
-    name: 'John Bull',
-    review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-  },
-  {
+//     image: avatar,
+//     name: 'John Bull',
+//     review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+//   },
+//   {
    
-    image: avatar,
-    name: 'John Bull',
-    review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-  }
-]
-const Testimonials = () => {
-  return (
-    <div>
-      <section id='testimonilas'>
-        <h5>Review from Clients</h5>
-        <h2>Testimonials</h2>
+//     image: avatar,
+//     name: 'John Bull',
+//     review:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+//   }
+// ]
+// const Testimonials = () => {
+//   return (
+//     <div>
+//       <section id='testimonilas'>
+//         <h5>Review from Clients</h5>
+//         <h2>Testimonials</h2>
 
-        <Swiper className='container testimonials__container'
+        {/* <Swiper className='container testimonials__container'
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
@@ -74,10 +74,10 @@ const Testimonials = () => {
          
 
           
-        </Swiper>
-      </section>
-    </div>
-  )
-}
+        </Swiper> */}
+//       </section>
+//     </div>
+//   )
+// }
 
-export default Testimonials
+// export default Testimonials

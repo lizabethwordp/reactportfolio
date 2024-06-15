@@ -14,27 +14,51 @@ const Experience = () => {
             <div className='exp__content'>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Scripting</h4>
+                <h4>Cloud Platforms: AWS, Azure, Nutanix</h4>
               </article>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Container management</h4>
+                <h4>Containerization: Docker, Kubernetes, ACR, OpenShift</h4>
               </article>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Automation</h4> 
+                <h4>Virtualization: Nginx, Apache, VMware</h4> 
               </article>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Configuration management</h4> 
+                <h4>Configuration management: Ansible</h4> 
               </article>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Cloud technologies</h4>
+                <h4>CI/CD: Jenkins, Gitlab, AWS CodePipeline, Azure Pipeline</h4>
               </article>
               <article className='exp__details'>
                 <BsFillCheckCircleFill className='exp__details-icon'/>
-                <h4>Monitoring and Security</h4>
+                <h4>Monitoring and Logging: ELK Stack, Grafana</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>IAC: Terraform, AWS CloudFormation</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>API Management: KONG</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Scripting: Bash Scripting, PowerShell Scripting</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Version Control: Git, Github, Gitlab, AWS CodeCommit, Azure DevOps</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Database: MySQL, MSSQL, ElasticSearch, Oracle</h4>
+              </article>
+              <article className='exp__details'>
+                <BsFillCheckCircleFill className='exp__details-icon'/>
+                <h4>Collaboration and Documentation: Confluence, Jira, Freshdesk</h4>
               </article>
             </div>
           </div>
@@ -70,45 +94,8 @@ const Experience = () => {
           </div>
 
         </div>
-        <div className='exp__softwaredev'>
-          <h5>Software Development</h5>
-          <div className='exp__content'>
-          
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>JavaScript</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4> Python</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4> ReactJS</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4> HTML/CSS</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>Libraries: JQuery, Bootstrap, Django</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>Task Management: Miro</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>DevOps: Git, Azure, Heroku</h4>
-            </article>
-            <article className='exp__details'>
-              <BsFillCheckCircleFill className='exp__details-icon'/>
-              <h4>MSSQL, Oracle, MongoDB</h4>
-            </article>
-            
-          </div>
-        </div>
+        
+       
 
       </div>
     </section> 

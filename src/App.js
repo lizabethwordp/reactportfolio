@@ -6,7 +6,7 @@ import About from './component/about/About'
 import Experience from './component/experience/Experience'
 
 import Portfolio from './component/portfolio/Portfolio'
-import Testimonials from './component/testimonials/Testimonials'
+// import Testimonials from './component/testimonials/Testimonials'
 import Contact from './component/contact/Contact'
 import Footer from './component/footer/Footer'
 import Certificates from './component/certificates/Certificates'
@@ -23,7 +23,7 @@ function App() {
       <Experience/>
      
       <Portfolio/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Certificates/>
       <Contact/>
       <Footer/>

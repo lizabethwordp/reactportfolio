@@ -1,6 +1,6 @@
 import React from 'react'
 import cs from '../../assets/cs.pdf'
-import softwarecv from '../../assets/softwarecv.pdf'
+
 
 const CTA = () => {
   return (

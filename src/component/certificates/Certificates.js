@@ -14,17 +14,16 @@ const arr = [
     
   },
   {
-    id: 2,
-    image: csbootcamp,
-    name: 'Cyber Security Bootcamp',
-    name1: 'SkillLogic'
-  },
-  {
     id: 3,
     image: udacity,
     name: 'Python Programming Foundations',
     name1: 'Udacity',
    
+  },
+  {
+    id: 2,
+    name: 'Cyber Security Bootcamp',
+    name1: 'SkillLogic'
   },
   {
     id: 4,
