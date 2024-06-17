@@ -9,6 +9,7 @@ import rockpaperscissors from '../../assets/rockpaperscissors.png';
 import Grafana from '../../assets/Grafana.png';
 import download from '../../assets/download.jpg';
 import testodogwu from '../../assets/testodogwu.png';
+import GrafanaImplementationDemo from '../../assets/GrafanaImplementationDemo.mp4';
 
 const arr = [
   {
@@ -23,7 +24,7 @@ const arr = [
     image: Grafana,
     name: 'Grafana',
     github: 'https://github.com/lizabethwordp/Grafana-Dashboard',
-    demo: ''
+    demo: GrafanaImplementationDemo
   },
   {
     id: 3,
