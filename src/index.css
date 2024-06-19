@@ -121,22 +121,22 @@ img{
 }
 
 /* Media Queries */
-@media screen and(max-width: 1024px){
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         width: var(--container-width-md);
     }
 
-    section{
+    section {
         margin-top: 6rem;
     }
 }
 
-@media only screen and (max-width: 600px){
-    .container{
+@media only screen and (max-width: 600px) {
+    .container {
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section > h2 {
         margin-top: 2rem;
     }
 }
