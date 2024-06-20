@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,88 +8,90 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    /* background-color: navy; */
+   
 }
-
-:root {
+:root{ 
+    /* --color-bg: antiquewhite; */
     --color-bg-variant: var(--color-white);
     --color-primary: plum;
+    /* rgb(86, 86, 245) */
     --color-primary-variant: var(--color-white);
     --color-white: white;
     --color-light: rgba(255, 255, 255, 0.6);
+    text-align: center;
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
+    --container-width-lg:75%;
+    --container-width-md:86%;
     --container-width-sm: 90%;
-}
 
-html {
+
+}
+html{
     scroll-behavior: smooth;
 }
-
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     display: none;
 }
-
-body {
+body{
     font-family: 'Edu NSW ACT Foundation', cursive;
+    /* background: var(--color-bg); */
     color: var(--color-white);
     line-height: 1.9;
-    background-image: url(../src/assets/me1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(../src/assets/me1.jpg)
 }
 
-.container {
+/* General styles */
+.container{
     width: var(--container-width-lg);
     margin: 0 auto;
-}
 
-h1, h2, h3, h4, h5 {
+}
+h1, h2, h3, h4, h5{
     font-weight: 500;
     font-size: 1.3rem;
+    
 }
-
-h1 {
+h1{
     font-size: 3rem;
     color: white;
+   
 }
-
-section {
+section{
     margin-top: 8rem;
+   
 }
-
-section > h2, section > h5 {
+section > h2, section > h5{
     text-align: center;
     color: white;
     font-weight: 400;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-size: 1rem;
 }
-
-section > h2 {
+section > h2{
     color: white;
+    /* rgb(86, 86, 245) */
     margin-bottom: 3rem;
     font-size: 3rem;
     font-weight: bolder;
+    
 }
-
-.text-light {
+.text-light{
     color: white;
     font-weight: 300;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
 }
-
-a {
+a{
     color: plum;
     transition: var(--transition);
+  
 }
-
-a:hover {
+a:hover{
     color: white;
 }
-
-.btn {
+.btn{
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -100,24 +102,25 @@ a:hover {
     transition: var(--transition);
     font-weight: 400;
 }
-
-.btn:hover {
+.btn:hover{
     background: plum;
     color: black;
     border-color: transparent;
-}
+    
 
-.btn-primary {
+}
+.btn-primary{
     background: white;
     color: black;
 }
-
-img {
+img{
     display: block;
     width: 100%;
+    
     object-fit: cover;
 }
 
+/* Media Queries */
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -126,18 +129,6 @@ img {
     section {
         margin-top: 6rem;
     }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    section > h2 {
-        font-size: 2.5rem;
-    }
-
-    .btn {
-        padding: 0.5rem 1rem;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -145,24 +136,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section {
-        margin-top: 4rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
     section > h2 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .btn {
-        padding: 0.4rem 0.8rem;
-    }
-
-    .text-light {
-        font-size: 0.9rem;
+        margin-top: 2rem;
     }
 }
