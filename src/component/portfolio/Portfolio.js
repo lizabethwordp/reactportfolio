@@ -6,7 +6,7 @@ import me1 from '../../assets/me1.jpg';
 import me2 from '../../assets/me2.jpg';
 import me3 from '../../assets/me3.jpg';
 import rockpaperscissors from '../../assets/rockpaperscissors.png';
-import Grafana from '../../assets/Grafana.png';
+import Grafana from '../../assets/Grafana.jpeg';
 import download from '../../assets/download.jpg';
 import testodogwu from '../../assets/testodogwu.png';
 import GrafanaImplementationDemo from '../../assets/GrafanaImplementationDemo.mp4';
