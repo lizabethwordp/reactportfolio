@@ -1,30 +1,36 @@
-nav{
+nav {
     background: transparent;
     width: max-content;
-    display: block;
     padding: 0.7rem 1.7rem;
-    z-index: 2;
     position: fixed;
     left: 50%;
-    transform: translateX();
+    transform: translateX(-50%);
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
+    z-index: 2;
     backdrop-filter: blur(15px);
-}
-nav a{
+  }
+  
+  nav a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
     color: pink;
     font-size: 1.1rem;
-}
-nav a:hover{
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  nav a:hover {
     background: grey;
-}
-nav a:active{
+  }
+  
+  nav a.active {
     background: var(--color-light);
     color: black;
-}
+  }
+  
