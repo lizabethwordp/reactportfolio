@@ -1,48 +1,68 @@
-.container.contact__container{
+/* Main container for contact section */
+.container.contact__container {
     width: 70%;
     display: grid;
     grid-template-columns: 30% 50%;
     gap: 12%;
+    margin: 0 auto; /* Center the container */
+    padding: 2rem 0;
 }
-.contact__options{
+
+/* Container for contact options */
+.contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-
 }
-.contact__option{
+
+/* Individual contact option styling */
+.contact__option {
     background: plum;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid;
+    border: 1px solid transparent;
     transition: var(--transition);
 }
-.contact__option:hover{
+
+.contact__option:hover {
     background: transparent;
     border-color: white;
 }
-.contact__option-icon{
-    font-size: 1rem;
+
+/* Icon styling within contact options */
+.contact__option-icon {
+    font-size: 2rem; /* Adjusted for better visibility */
     margin-bottom: 0.5rem;
 }
-.contact__option a{
+
+/* Link styling within contact options */
+.contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    color: white; /* Ensures visibility on hover */
+    text-decoration: none;
 }
-.email{
+
+.contact__option a:hover {
+    text-decoration: underline;
+}
+
+/* Email and phone number text */
+.email {
     text-align: center;
     word-wrap: break-word;
 }
 
 /* Form styling */
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
-input, textarea{
+
+input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -52,25 +72,25 @@ input, textarea{
     color: white;
 }
 
-/* 
-Meduim devices */
-@media screen and(max-width: 1024px){
-    .container.contact__container{
-       grid-template-columns: 1fr;
-       gap: 2rem;
+/* Media query for medium devices */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 90%; /* Adjust width for better fit */
     }
 }
-/* Small devices */
-@media screen and(max-width: 600px){
-    .container.contact__container{
-        width: var(--container-width-sm);
-      
-     }
 
-     h5.contact__option{
+/* Media query for small devices */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: 100%;
+        padding: 0 1rem; /* Add padding for better spacing */
+    }
+
+    .contact__option h5 {
         margin: 0 auto;
-        width:fit-content;
+        width: fit-content;
         text-align: center;
-     }
-} 
-
+    }
+}
