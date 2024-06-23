@@ -21,7 +21,7 @@ const arr = [
    
   },
   {
-    id: 2,
+    id: csbootcamp,
     name: 'Cyber Security Bootcamp',
     name1: 'SkillLogic'
   },
