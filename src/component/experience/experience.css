@@ -7,8 +7,9 @@
 }
 
 .exp_title {
-    padding-top: 5rem;
+    padding-top: 3rem; /* Adjusted padding-top to reduce space */
     text-align: center;
+    margin-bottom: 2rem; /* Added margin-bottom to reduce space */
 }
 
 .experience__container {
@@ -33,7 +34,7 @@
 
 .experience__container > div h5 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem; /* Adjusted margin-bottom to reduce space */
     font-size: 2rem;
     font-weight: 500;
 }
@@ -41,7 +42,7 @@
 .exp__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem; /* Reduced row-gap to reduce space */
 }
 
 .exp__details {
