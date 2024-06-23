@@ -1,59 +1,91 @@
-.certifcates__container{
+/* Container for the certificates items */
+.certificates__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    padding: 2rem 0;
 }
-.ct__items{
+
+/* Individual certificate items */
+.ct__items {
     background: transparent;
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-
 }
-.ct__items:hover{
+
+.ct__items:hover {
     border-color: white;
     background: grey;
 }
-.ct__items-image{
+
+/* Image container within each certificate item */
+.ct__items-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    
-
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.ct__items h5{
-    font-size: medium;
+
+.ct__items-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Heading within each certificate item */
+.ct__items h5 {
+    margin: 1.2rem 0 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.ct__items h2 {
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
     font-weight: 400;
 }
-/* .ct__items h2, h5{
-    margin: 1.2rem 0 2rem;
-} */
 
-.btn-primary{
-    /* display: flex; */
-    margin-left: 0.7rem;
-    margin-bottom: 1rem;
-   
-}
-
-/* 
-Meduim devices */
-@media only screen and(max-width: 1024px){
-    .certificates__container{
-       grid-template-columns: 1fr 1fr;
-       gap: 1.2rem;
+/* Media query for medium devices */
+@media only screen and (max-width: 1024px) {
+    .certificates__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
     }
 
-    
-   
-}
-/* Small devices */
-@media only screen and(max-width: 600px){
-    .certificates__container{
-       grid-template-columns: 1fr;
-       gap: 1rem;
-       
+    .ct__items {
+        padding: 1rem;
     }
-  
-   
-} 
+
+    .ct__items h5 {
+        font-size: 1rem;
+    }
+
+    .ct__items h2 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for small devices */
+@media only screen and (max-width: 600px) {
+    .certificates__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .ct__items {
+        padding: 0.8rem;
+    }
+
+    .ct__items h5 {
+        font-size: 0.9rem;
+    }
+
+    .ct__items h2 {
+        font-size: 0.8rem;
+    }
+}
