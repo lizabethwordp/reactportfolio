@@ -20,12 +20,12 @@ const arr = [
     name1: 'Udacity',
    
   },
-  // {
-  //   id: 3,
-  //   image: csbootcamp,
-  //   name: 'Cyber Security Bootcamp',
-  //   name1: 'SkillLogic'
-  // },
+  {
+    id: 3,
+    image: csbootcamp,
+    name: 'Cyber Security Bootcamp',
+    name1: 'SkillLogic'
+  },
   {
     id: 4,
     image: reactcert,
