@@ -1,5 +1,5 @@
 import React from 'react'
-import cs from '../../assets/cs.pdf'
+import cs from '../../assets/newAJOSEANUOLUWAPOELIZABETH.pdf'
 
 
 const CTA = () => {
