@@ -1,24 +1,33 @@
-
-.footer__copyright{
+/* Footer container styling */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #000; /* Assuming a black background for the footer */
     color: white;
-    font-size: 5rem;
 }
-/* @media screen and(max-width: 1024px){
-    .portofolio__container{
-       grid-template-columns: 1fr 1fr;
-       gap: 1.2rem;
+
+/* Horizontal line styling */
+footer hr {
+    background: gray;
+    height: 0.7px;
+    margin: 2rem auto;
+    width: calc(100% - 4rem); /* Responsive width with padding on both sides */
+}
+
+/* Copyright text styling */
+footer small {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Media query for small devices */
+@media screen and (max-width: 600px) {
+    footer hr {
+        width: calc(100% - 2rem); /* Adjust width for smaller screens */
     }
 
-    
-   
-}
-/* Small devices */
-/* @media screen and(max-width: 600px){
-    .portfolio__container{
-       grid-template-columns: 1fr;
-       gap: 1rem;
-       
+    footer small {
+        font-size: 0.8rem;
     }
-  
-   
-}   */
+}
