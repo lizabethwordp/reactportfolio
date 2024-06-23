@@ -1,59 +1,89 @@
-.portfolio__container{
+/* Container for the portfolio items */
+.portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    padding: 2rem 0;
 }
-.pt__items{
+
+/* Individual portfolio items */
+.pt__items {
     background: transparent;
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-
 }
-.pt__items:hover{
+
+.pt__items:hover {
     border-color: white;
     background: grey;
 }
-.pt__items-image{
+
+/* Image container within each portfolio item */
+.pt__items-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.pt__items-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-.pt__items h3{
+
+/* Heading within each portfolio item */
+.pt__items h3 {
     margin: 1.2rem 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
-.pt__items-cta{
-    /* display: flex; */
-    gap: 2rem;
+
+/* Call-to-action buttons container */
+.pt__items-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
-.btn-primary{
-    /* display: flex; */
+
+.btn-primary {
     margin-left: 0.7rem;
     margin-bottom: 1rem;
-   
 }
 
-/* 
-Meduim devices */
-@media screen and(max-width: 1024px){
-    .portofolio__container{
-       grid-template-columns: 1fr 1fr;
-       gap: 1.2rem;
+/* Media query for medium devices */
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
     }
 
-    
-   
-}
-/* Small devices */
-@media screen and(max-width: 600px){
-    .portfolio__container{
-       grid-template-columns: 1fr;
-       gap: 1rem;
-       
+    .pt__items {
+        padding: 1rem;
     }
-  
-   
-} 
+
+    .pt__items h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Media query for small devices */
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .pt__items {
+        padding: 0.8rem;
+    }
+
+    .pt__items h3 {
+        font-size: 1.1rem;
+    }
+}
