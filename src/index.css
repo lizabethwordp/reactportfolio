@@ -39,7 +39,8 @@ body{
     /* background: var(--color-bg); */
     color: var(--color-white);
     line-height: 1.9;
-     background-image: url(../src/assets/me1.jpg) 
+    background-color: black;
+/*      background-image: url(../src/assets/me1.jpg)  */
 }
 
 /* General styles */
