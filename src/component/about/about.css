@@ -1,122 +1,140 @@
-#about{
+#about {
     margin-bottom: 0;
 }
-.about__container{
+
+.about__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 1rem;
-   
 }
-.about_title{
+
+.about__title {
     padding-top: 5rem;
 }
 
-.about__me{
+.about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
-} 
-.about__me-image{
+}
+
+.about__me-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    height: 40rem;
-    width: 25rem;
-    
+    height: 100%;
+    width: 100%;
 }
 
-.about__me-image:hover{
+.about__me-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.about__me-image:hover {
     transform: rotate(0);
 }
 
-.about__cards{
+.about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4rem
-} 
-.about__card{
+    gap: 4rem;
+}
+
+.about__card {
     background: plum;
-    /* rgb(86, 86, 245) */
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    width: 120%;
-   
+    width: 100%;
 }
 
-.about__card:hover{
+.about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.about__icon{
+.about__icon {
     color: black;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.about__card h5{
+.about__card h5 {
     font-size: 1rem;
     font-weight: 400;
 }
-.about__card small{
+
+.about__card small {
     font-size: 0.9rem;
-   
     font-weight: 200;
 }
-.about_content p{
+
+.about__content p {
     margin: 4rem 4 4 2.6rem;
     color: var(--color-light);
     padding-top: 8px;
-    font-size: 4rem;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-/* 
-Meduim devices */
-@media screen and(max-width: 900px){
-    .about__container{
-       grid-template-columns: 1fr;
-       gap: 0;
+}
+
+/* Medium devices */
+@media screen and (max-width: 900px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
-    .about__me{
-        width: 50%;
+    .about__me {
+        width: 75%;
         margin: 2rem auto 4rem;
     }
 
-    .about_content p{
-        margin: 1rem 0 1.5rem;
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
     }
-   
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+        font-size: 1rem;
+    }
 }
 
 /* Small devices */
-@media screen and(max-width: 767px){
-    .about__me{
-       width: var(--container-width-sm);
-       /* width: 65%; */
-       margin: 0 auto 3rem;
-     }
+@media screen and (max-width: 767px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 
-     
-    .about__cards{
-       grid-template-columns: 2fr 2fr;
-       gap: 1rem;
-       width: 100%;
+    .about__me {
+        width: 100%;
+        margin: 0 auto 3rem;
     }
-    .about_content{
+
+    .about__cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .about__content {
         text-align: center;
-      
     }
-    .about_content p{
+
+    .about__content p {
         margin: 2rem 0;
+        font-size: 1rem;
     }
-} 
+}
