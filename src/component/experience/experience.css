@@ -7,11 +7,11 @@
 }
 
 /* .exp_title {
-    padding-top: 3rem; /* Adjusted padding-top to reduce space */
+    padding-top: 3rem; 
     text-align: center;
-    margin-bottom: 2rem; /* Added margin-bottom to reduce space */
-} */
-
+    margin-bottom: 2rem;
+} 
+ */
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
