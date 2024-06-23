@@ -6,11 +6,11 @@
     padding: 2rem 0;
 }
 
-.exp_title {
+/* .exp_title {
     padding-top: 3rem; /* Adjusted padding-top to reduce space */
     text-align: center;
     margin-bottom: 2rem; /* Added margin-bottom to reduce space */
-}
+} */
 
 .experience__container {
     display: grid;
