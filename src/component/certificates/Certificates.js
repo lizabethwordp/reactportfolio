@@ -15,19 +15,26 @@ const arr = [
   },
   {
     id: 2,
+    image: cka,
+    name: 'Certified Kubernetes Administrator',
+    name1: 'Linux Foundation'
+    
+  },
+  {
+    id: 3,
     image: udacity,
     name: 'Python Programming Foundations',
     name1: 'Udacity',
    
   },
   {
-    id: 3,
+    id: 4,
     image: csbootcamp,
     name: 'Cyber Security Bootcamp',
     name1: 'SkillLogic'
   },
   {
-    id: 4,
+    id: 5,
     image: reactcert,
     name: 'ReactJS Mastery E-Degree Certificate',
     name1: 'Udemy'
